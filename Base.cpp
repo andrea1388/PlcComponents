@@ -1,7 +1,7 @@
 #include "Base.hpp"
 #define LOG_LOCAL_LEVEL ESP_LOG_DEBUG
 #include "esp_log.h"
-char *plctag="plc";
+const char *plctag="plc";
 
 
 Base::Base(const String &name) 
